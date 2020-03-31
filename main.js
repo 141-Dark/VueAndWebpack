@@ -24,15 +24,15 @@ var vm = new Vue({
     data: {
         msg: '123'
     },
-     /*components:{
-          login
-     },
-
-    render:function (cre) {
-        return cre(login)
+    /*components:{
+         login
     },
-    render: c => c(login)*/
-     render:c =>  c(app),
+
+   render:function (cre) {
+       return cre(login)
+   },
+   render: c => c(login)*/
+    render: c => c(app),
     router
 });
 
